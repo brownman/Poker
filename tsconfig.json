@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "outDir": "./bin/dist",
+      "pretty": true,
+      "target": "es2017",
+      "lib": [
+          "es2017",
+          "dom"
+      ],
+      "esModuleInterop": true,
+
+      "allowSyntheticDefaultImports": true,
+      "module": "commonjs",
+      "sourceMap": true,
+      "declaration": true,
+      "importHelpers": true,
+      "strict": true,
+      "noImplicitAny": false // Needed to compile tap
+  },
+  "exclude": [
+      "DELETE_ME"
+   ]
+}

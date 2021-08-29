@@ -1,0 +1,13 @@
+{
+    "watch": [
+        "src",
+        "lib",
+        "config",
+        "index.ts"
+    ],
+    "ext": "ts,json",
+    "ignore": [
+        "src/**/*.spec.ts"
+    ],
+    "exec": "NODE_OPTIONS='--unhandled-rejections=strict' DEBUG=client,server  ts-node  "
+}
